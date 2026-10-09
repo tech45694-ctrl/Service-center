@@ -1,263 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>VR COOL TECH | Washing Machine & Fridge Service in Thanjavur</title>
+<title>VR COOL TECH | Fridge & Washing Machine Service Thanjavur</title>
 
-    <meta name="description" content="VR COOL TECH provides washing machine and fridge service and repair in Thanjavur. Call 9843959580 for service enquiries.">
+<meta name="description" content="VR COOL TECH offers washing machine and fridge service in Thanjavur. Call 9843959580 for service enquiries.">
 
-    <meta name="keywords" content="washing machine service Thanjavur, fridge service Thanjavur, washing machine repair, fridge repair, VR COOL TECH">
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-    <meta name="theme-color" content="#071b35">
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f6fb;
+    color: #172033;
+}
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+header {
+    background: #071b35;
+    color: white;
+    text-align: center;
+    padding: 28px 12px;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            background: #f3f7fc;
-            color: #222;
-            line-height: 1.6;
-        }
+header h1 {
+    color: #00d4ff;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
 
-        header {
-            background: #071b35;
-            color: white;
-            padding: 20px 15px;
-            text-align: center;
-        }
+header p {
+    font-size: 17px;
+    margin: 5px;
+}
 
-        header h1 {
-            font-size: 32px;
-            color: #00d4ff;
-        }
+.hero {
+    background: linear-gradient(135deg, #082b52, #0877b9);
+    color: white;
+    padding: 35px 18px;
+    text-align: center;
+}
 
-        header p {
-            margin-top: 5px;
-        }
+.hero h2 {
+    font-size: 29px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    color: white;
+}
 
-        nav {
-            background: #102c50;
-            padding: 12px;
-            text-align: center;
-        }
+.hero p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 12px;
-            font-weight: bold;
-        }
+.call-button {
+    display: block;
+    background: #00c853;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 19px 10px;
+    border-radius: 12px;
+    margin: 20px auto 12px;
+    max-width: 350px;
+    box-shadow: 0 5px 12px #001b32;
+}
 
-        .hero {
-            background: linear-gradient(135deg, #071b35, #1266a8);
-            color: white;
-            text-align: center;
-            padding: 65px 20px;
-        }
+.whatsapp-button {
+    display: block;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 12px auto;
+    max-width: 350px;
+}
 
-        .hero h2 {
-            font-size: 34px;
-            margin-bottom: 15px;
-        }
+section {
+    padding: 32px 16px;
+    text-align: center;
+}
 
-        .hero p {
-            font-size: 18px;
-            margin-bottom: 25px;
-        }
+section h2 {
+    font-size: 27px;
+    color: #07549a;
+    margin-bottom: 22px;
+}
 
-        .btn {
-            display: inline-block;
-            padding: 13px 24px;
-            margin: 7px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+}
 
-        .call {
-            background: #00c853;
-            color: white;
-        }
+.card {
+    background: white;
+    width: 100%;
+    max-width: 330px;
+    padding: 25px 15px;
+    border-radius: 14px;
+    box-shadow: 0 3px 12px #00000012;
+}
 
-        .whatsapp {
-            background: #25d366;
-            color: white;
-        }
+.card .icon {
+    font-size: 55px;
+}
 
-        section {
-            padding: 45px 20px;
-            text-align: center;
-        }
+.card h3 {
+    font-size: 22px;
+    color: #07549a;
+    margin: 12px 0;
+}
 
-        section h2 {
-            color: #0b3158;
-            font-size: 28px;
-            margin-bottom: 20px;
-        }
+.card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
 
-        .services {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
+.contact {
+    background: #e1efff;
+}
 
-        .card {
-            background: white;
-            padding: 25px;
-            width: 290px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-        }
+.contact p {
+    font-size: 18px;
+    margin: 10px;
+}
 
-        .card .icon {
-            font-size: 45px;
-        }
+footer {
+    background: #071b35;
+    color: white;
+    padding: 22px 10px;
+    text-align: center;
+}
 
-        .card h3 {
-            color: #1266a8;
-            margin: 10px 0;
-        }
+@media (max-width: 400px) {
+    header h1 {
+        font-size: 29px;
+    }
 
-        .contact {
-            background: #e2efff;
-        }
-
-        footer {
-            background: #071b35;
-            color: white;
-            text-align: center;
-            padding: 22px 12px;
-        }
-
-        footer a {
-            color: #00d4ff;
-        }
-
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 27px;
-            }
-
-            .hero h2 {
-                font-size: 27px;
-            }
-
-            nav a {
-                display: inline-block;
-                margin: 5px 8px;
-            }
-        }
-    </style>
+    .hero h2 {
+        font-size: 25px;
+    }
+}
+</style>
 </head>
 
 <body>
 
 <header>
     <h1>VR COOL TECH</h1>
-    <p>Washing Machine & Fridge Service Center</p>
+    <p>Washing Machine & Fridge Service</p>
     <p>📍 Thanjavur, Tamil Nadu</p>
 </header>
 
-<nav>
-    <a href="#home">Home</a>
-    <a href="#services">Services</a>
-    <a href="#about">About Us</a>
-    <a href="#contact">Contact</a>
-</nav>
-
 <main>
 
-<section class="hero" id="home">
+<div class="hero">
     <h2>Washing Machine & Fridge Repair in Thanjavur</h2>
 
-    <p>Looking for washing machine or fridge service in Thanjavur?</p>
+    <p>Need appliance service? Contact us today!</p>
 
-    <p>Contact VR COOL TECH for service enquiries.</p>
-
-    <a class="btn call" href="tel:+919843959580">
-        📞 Call Now
+    <a class="call-button" href="tel:+919843959580">
+        📞 CALL NOW
     </a>
 
-    <a class="btn whatsapp"
-       href="https://wa.me/919843959580?text=Hi%20VR%20COOL%20TECH%2C%20I%20need%20appliance%20service"
-       target="_blank" rel="noopener">
-        WhatsApp Us
+    <a class="whatsapp-button"
+       href="https://wa.me/919843959580?text=Hi%20VR%20COOL%20TECH%2C%20I%20need%20service">
+       🟢 WHATSAPP ENQUIRY
     </a>
-</section>
+
+    <p>Call: 9843959580</p>
+</div>
 
 <section id="services">
     <h2>Our Services</h2>
 
     <div class="services">
-
-        <article class="card">
+        <div class="card">
             <div class="icon">🧺</div>
             <h3>Washing Machine Service</h3>
-            <p>Washing machine inspection, troubleshooting, servicing and repair enquiries.</p>
-        </article>
+            <p>Washing machine servicing, inspection and repair enquiries.</p>
+        </div>
 
-        <article class="card">
+        <div class="card">
             <div class="icon">🧊</div>
             <h3>Fridge Service</h3>
-            <p>Refrigerator inspection, cooling problem troubleshooting, servicing and repair enquiries.</p>
-        </article>
-
+            <p>Fridge servicing, cooling problem inspection and repair enquiries.</p>
+        </div>
     </div>
 </section>
 
-<section id="about">
-    <h2>About VR COOL TECH</h2>
+<section>
+    <h2>Why Choose VR COOL TECH?</h2>
+    <p>Washing Machine & Fridge Service Enquiries in Thanjavur.</p>
 
-    <p>
-        VR COOL TECH provides washing machine and fridge
-        service and repair enquiries in Thanjavur, Tamil Nadu.
-        Contact us to discuss your appliance service requirements.
-    </p>
-
-    <br>
-
-    <a class="btn call" href="tel:+919843959580">
-        Call 9843959580
+    <a class="call-button" href="tel:+919843959580">
+        📞 CALL 9843959580
     </a>
 </section>
 
 <section class="contact" id="contact">
     <h2>Contact Us</h2>
+    <p><b>Business:</b> VR COOL TECH</p>
+    <p><b>Location:</b> Thanjavur, Tamil Nadu</p>
+    <p><b>Phone:</b> 9843959580</p>
 
-    <p><strong>Business Name:</strong> VR COOL TECH</p>
-
-    <p><strong>Services:</strong> Washing Machine & Fridge Service</p>
-
-    <p><strong>Location:</strong> Thanjavur, Tamil Nadu</p>
-
-    <p><strong>Phone:</strong> 9843959580</p>
-
-    <a class="btn call" href="tel:+919843959580">
-        Call for Service
-    </a>
-
-    <a class="btn whatsapp"
-       href="https://wa.me/919843959580?text=Hi%2C%20I%20need%20washing%20machine%20or%20fridge%20service"
-       target="_blank" rel="noopener">
-        WhatsApp Enquiry
+    <a class="whatsapp-button"
+       href="https://wa.me/919843959580?text=Hi%20VR%20COOL%20TECH">
+       WhatsApp Us
     </a>
 </section>
 
 </main>
 
 <footer>
-    <p>© 2026 VR COOL TECH | Thanjavur</p>
-    <p>Washing Machine & Fridge Service and Repair</p>
+    <p>© 2026 VR COOL TECH</p>
+    <p>Washing Machine & Fridge Service | Thanjavur</p>
 </footer>
 
 </body>
