@@ -8,6 +8,16 @@
 
 <meta name="description" content="VR COOL TECH offers washing machine and fridge service in Thanjavur. Call 9843959580 for service enquiries.">
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18504594780"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18504594780');
+</script>
+
 <style>
 * {
     box-sizing: border-box;
@@ -167,7 +177,6 @@ footer {
 
 <div class="hero">
     <h2>Washing Machine & Fridge Repair in Thanjavur</h2>
-
     <p>Need appliance service? Contact us today!</p>
 
     <a class="call-button" href="tel:+919843959580">
